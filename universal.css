@@ -1,0 +1,25 @@
+body {
+    background-color: #FFC0CB;
+    font-family:"arial", cursive;
+    font-weight: 200;
+    font-stretch :expanded;
+}
+h1, h2, h3, p {
+    color: #333333;
+}
+
+li {
+    color: #555555;
+}
+h1, h2 {
+    text-align: center;
+    text-decoration:underline;
+}
+h3 {
+    text-decoration: underline;
+}
+
+img {
+width: auto;
+height: 200px;
+}
