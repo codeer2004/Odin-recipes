@@ -4,24 +4,65 @@
         <meta charset="UTF8">
         <title>Home</title>
         <link rel="stylesheet" href="universal.css">
-      
+        <style>
+            h1 {   
+                padding: 10px;   
+            }
+           p {
+                margin: 18px;
+                border: white double 12px;
+                padding: 12px;
+            }
+          nav {
+                border:  inset 3px;
+                display: inline-block;
+                margin: 9px;
+            }
+          .one {
+                margin: 15px
+            }
+          img {
+                display: block;
+                margin: 0 auto;
+            }
+          .down {
+                padding-top: 9px ;
+            }
+           ul {
+                padding:  9px;
+            }
+       </style>
     </Head>
-    <body>
-        <h1><em>My Recipe</em></h1>
-        <p class="intro">Food is a universal pleasure, and our individual preferences create a beautiful tapestry of culinary experiences.  With a passion for personalizing classic recipes, I'm excited to share some of my creations on this website.  These recipes are inspired by dishes I've discovered online, but with my own unique twist added for a touch of personal flavor.  Feel free to experiment and make them your own –  enjoy!</p>
-        <img src="images/swing-dance.gif" alt="cute swing dancing" height="100" width="100">
-        <h2>Recipes Links</h2>
-        <ul>
-          <li><a href="pages/Bechamel-Penne.html" target="_blank" rel="noopener noreferrer">Bechamel Penne</a></li>
-          <li><a href="pages/Potato-Pizza.html" target="_blank" rel="noopener noreferrer">Potato Pizza</a></li>
-          <li><a href="pages/Veggies-Spaghetti.html" target="_blank" rel="noopener noreferrer">Veggies Spaghetti</a></li>
-        </ul>
 
-        <footer class="down">
-         <div>
-            <strong>Stay tuned for even more delicious recipes coming soon! </strong>
-         </div>
+    <body>
+        <header>
+          <h1><strong>All Tastes Welcome: Cooking Without Borders, Full of Flavor </strong></h1>
+          <nav>
+               <a href="#rec"> Recipes</a>
+               <a href="index.html">Home</a>
+                <a href="#con">Contact Us</a>
+           </nav>
+        </header>
+
+        <main>
+            <p>Food is a universal pleasure, and our individual preferences create a beautiful tapestry of culinary experiences. Here, all tastes are welcome! With a passion for personalizing classic recipes and using what you have on hand, I'm excited to share some of the creations we've come up with on this website. These recipes are a culmination of inspiration from online finds and our collaborative efforts in the kitchen, adding our own unique twist for a touch of personal flavor. Feel free to experiment, substitute ingredients, and make them your own –  we hope you enjoy the satisfaction of creating delicious meals, no matter what your pantry holds!</p>
+            <img src="images/food.jpg" alt="cute swing dancing" height="auto" width="300">
+            <div class="one">  <!--to control the block  style-->
+                <ul id="rec">
+                    <li><a href="pages/Bechamel-Penne.html" target="_blank" rel="noopener noreferrer">Bechamel Penne</a></li>
+                    <li><a href="pages/Potato-Pizza.html" target="_blank" rel="noopener noreferrer">Potato Pizza</a></li>
+                    <li><a href="pages/Veggies-Spaghetti.html" target="_blank" rel="noopener noreferrer">Veggies Spaghetti</a></li>
+                </ul>
+            </div>
+        </main>
+
+        <footer>
+            <strong>Stay tuned for even more delicious recipes coming soon! </strong> <br>
+            <div class="down " id="con">
+                &copy; 2024 Codeer@github <br>
+            </div>
         </footer>
 
     </body>
+
 </html>

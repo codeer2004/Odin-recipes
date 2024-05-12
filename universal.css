@@ -1,13 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Comic Sans MS";
+}
+header {
+    background-color: #f3ecec;
+    color: azure;
+    margin-bottom: 10px;
+    border-bottom: 12px, solid, grey;
+}
+main {
+    margin: 14px; 
+}
+footer{
+    margin-top: 10px;
+    padding:  10px;
+    background-color: #f3ecec;
+}
 body {
     background-color: #FFC0CB;
-    font-family:"arial", cursive;
     font-weight: 200;
-    font-stretch :expanded;
 }
 h1, h2, h3, p {
     color: #333333;
 }
-
 li {
     color: #555555;
 }
@@ -19,7 +35,4 @@ h3 {
     text-decoration: underline;
 }
 
-img {
-width: auto;
-height: 200px;
-}
+
